@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#26A371;fill-rule:nonzero}
+    .fil1 {fill:#3D3D45;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="图层_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2170426771088">
+   <path class="fil0" d="M3557.02 2104.3l912.66 0 0 853.14 -912.66 0 0 -853.14zm512.62 -1544.22l-3151.55 0c-220.01,0 -400.03,180.03 -400.03,400.04l0 826.79 879.58 0 0 -20.55c0,-194.21 158.93,-353.14 353.14,-353.14l1453.1 0c194.21,0 353.14,158.93 353.14,353.14l0 20.55 912.66 0 0 -826.79c0,-220.01 -180.03,-400.04 -400.04,-400.04zm-3551.58 1544.22l879.58 0 0 853.14 -879.58 0 0 -853.14zm3038.96 1207.66c0,194.22 -158.93,353.14 -353.14,353.14l-1453.01 0c-194.21,0 -353.14,-158.92 -353.14,-353.14l0 -37.03 -879.67 0 0 777.13c0,220.01 180.02,400.03 400.03,400.03l3151.55 0.09c220.01,0 400.04,-180.02 400.04,-400.03l0 -777.22 -912.66 0 0 37.03z" p-id="6864"/>
+   <path class="fil1" d="M3557.02 2104.3l912.66 0 0 853.14 -912.66 0 0 -853.14zm-3038.96 0l879.58 0 0 853.14 -879.58 0 0 -853.14z" p-id="6864"/>
+  </g>
+ </g>
+</svg>

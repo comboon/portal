@@ -1,0 +1,53 @@
+{
+  "name": "dongfangdianqi",
+  "version": "1.0.0",
+  "description": "这是东方电气门户网站项目",
+  "author": "wuzhipeng",
+  "private": true,
+  "scripts": {
+    "dev:local": "cross-env MODE='http://127.0.0.1:8091' DC='http://10.21.5.74:32706' nuxt",
+    "dev:test": "cross-env MODE='http://139.155.237.242:8014/front' DC='http://10.21.5.74:32706' nuxt",
+    "dev:yy": "cross-env MODE='http://119.3.194.28:39021' DC='http://10.21.5.74:32706' nuxt",
+    "dev:dc": "cross-env MODE='http://10.70.12.11:33676' DC='http://10.21.5.74:32706' nuxt",
+    "build:test": "cross-env MODE='http://139.155.237.242:8014/front' DC='http://10.21.5.74:32706' nuxt build",
+    "build:daocloud": "cross-env MODE='http://10.70.12.11:33676' DC='http://10.21.5.74:32706' nuxt build",
+    "build:daocloud-dev": "cross-env MODE='http://10.70.12.11:33677' DC='http://10.21.5.74:32706' nuxt build",
+    "build:stage": "cross-env MODE='http://10.18.30.122:33676' DC='http://10.21.5.74:32706' nuxt build",
+    "start:test": "cross-env MODE='http://139.155.237.242:8014/front' DC='http://10.21.5.74:32706'  nuxt start",
+    "start:daocloud": "cross-env MODE='http://10.70.12.11:33676' DC='http://10.70.12.11:32706'  nuxt start",
+    "start:stage": "cross-env MODE='http://10.18.30.122:33676'  DC='http://10.21.5.74:32706' nuxt start",
+    "start:daocloud-dev": "cross-env MODE='http://10.70.12.11:33677' DC='http://10.21.5.74:32706'  nuxt start"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8018"
+    }
+  },
+  "devDependencies": {
+    "@lljj/vue-json-schema-form": "^1.14.0",
+    "axios-auth-refresh": "^3.3.3",
+    "cookieparser": "^0.1.0",
+    "core-js": "^3.25.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.5",
+    "element-ui": "^2.15.9",
+    "js-cookie": "^3.0.1",
+    "sass": "^1.54.7",
+    "sass-loader": "8.0.0",
+    "vue": "~2.7.10",
+    "vue-server-renderer": "~2.7.10",
+    "vue-template-compiler": "~2.7.10",
+    "vuex": "^3.6.2",
+    "webpack": "^4.46.0",
+    "xgplayer": "^2.31.7",
+    "@nuxtjs/router": "^1.5.0"
+  },
+  "dependencies": {
+    "@femessage/nuxt-micro-frontend": "^1.5.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "nuxt": "^2.15.8"
+  }
+}
